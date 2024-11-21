@@ -15,6 +15,9 @@ const Counter=()=>{
     function handleIncrease(){
         setCount(count+1)
     }
+useEffect(()=>{
+alert("hi",{count})
+//setCount1(count*5},[count])
   return (
     <div>
         <h1>Counter:{count}</h1>
